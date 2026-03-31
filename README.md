@@ -4,7 +4,7 @@ End-to-end **data engineering pipeline** that ingests and processes worldwide ea
 
 ---
 
-# 📌 Project Overview
+#  Project Overview
 
 This project demonstrates how to build an **end-to-end data engineering pipeline** using **Microsoft Fabric** to ingest, process, and analyze worldwide earthquake data from the **USGS Earthquake API**.
 
@@ -14,7 +14,7 @@ The final processed data can be used for **data analysis and visualization in Po
 
 ---
 
-# 🏗 Architecture
+# Architecture
 
 This project implements a **modern data engineering architecture** using Microsoft Fabric components.
 
@@ -28,7 +28,7 @@ This project implements a **modern data engineering architecture** using Microso
 
 ---
 
-# 🧰 Technologies Used
+# Technologies Used
 
 - **Python**
 - **PySpark**
@@ -41,7 +41,7 @@ This project implements a **modern data engineering architecture** using Microso
 
 ---
 
-# 🥉 Bronze Layer — Raw Data Ingestion
+# Bronze Layer — Raw Data Ingestion
 
 This layer ingests **raw earthquake event data** directly from the **USGS API**.
 
@@ -60,7 +60,7 @@ This layer ingests **raw earthquake event data** directly from the **USGS API**.
 
 ---
 
-# 🥈 Silver Layer — Data Cleaning & Transformation
+# Silver Layer — Data Cleaning & Transformation
 
 The **Silver Layer** processes the raw data from the Bronze layer and converts it into **clean and structured datasets**.
 
@@ -76,7 +76,7 @@ This layer prepares the data for **analytical workloads**.
 
 ---
 
-# 🥇 Gold Layer — Analytics Ready Data
+# Gold Layer — Analytics Ready Data
 
 The **Gold Layer** produces **business-ready datasets** optimized for **reporting and analytics**.
 
@@ -91,7 +91,7 @@ This layer powers the **final analytics and insights**.
 
 ---
 
-# 📊 Data Source
+# Data Source
 
 The earthquake data is retrieved from the **USGS Earthquake API**, which provides real-time information about earthquake events worldwide.
 
@@ -102,19 +102,6 @@ Data includes:
 - Event timestamps
 - Significance scores
 - Geological metadata
-
----
-
-# 🚀 Future Improvements
-
-Possible improvements for this project:
-
-- Real-time earthquake data streaming
-- Data quality monitoring
-- Automated pipeline orchestration
-- Advanced Power BI dashboards
-- Machine learning models for earthquake analysis
-
 ---
 
 # 👤 Author
